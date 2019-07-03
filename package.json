@@ -1,0 +1,16 @@
+{
+  "name": "jhispter-postgre",
+  "version": "0.0.0",
+  "description": "Description for jhispterPostgre",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "generator-jhipster": "4.13.1"
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  }
+}
