@@ -13,20 +13,21 @@
     "clusteredHttpSession": false,
     "websocket": false,
     "databaseType": "sql",
-    "devDatabaseType": "postgresql",
+    "devDatabaseType": "h2Disk",
     "prodDatabaseType": "postgresql",
     "searchEngine": false,
     "messageBroker": false,
     "serviceDiscoveryType": false,
     "buildTool": "maven",
     "enableSocialSignIn": false,
-    "enableSwaggerCodegen": false,
-    "jwtSecretKey": "11a575ff309872750617fa9a2f0860654180592c",
-    "enableTranslation": false,
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "dc86eec9204ad20ab0e140eb66289164f0ba356b",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "yarn",
     "applicationType": "monolith",
     "testFrameworks": [],
     "jhiPrefix": "jhi",
-    "clientPackageManager": "yarn",
-    "skipClient": true
+    "enableTranslation": false
   }
 }
